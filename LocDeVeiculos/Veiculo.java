@@ -9,11 +9,8 @@ public class Veiculo {
  private int fabricacao;
  private double valorMercado;
  private String placa = " "; 
- //String [] TCombustivel = new String[5];
  private String TCombustivel[] = {"álcool", "gasolina", "flex", "GNV", "diesel"} ;
- //ArrayList<String> TCombustivel = new ArrayList();
- //TCombustivel.add("álcool");TCombustivel.add("gasolina");TCombustivel.add("flex");
- //TCombustivel.add("GNV");TCombustivel.add("diesel");
+ 
  public String getPlaca() {
     return placa;
 }
